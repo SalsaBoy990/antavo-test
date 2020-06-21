@@ -31,9 +31,6 @@ class SimplePaymentForm
 
   public $errorStack = array();
 
-  // show converted value in Euro
-  public $showConvertedAmount = "";
-
   function __construct($ccNumber = "", $month = "", $year = "", $amount = null)
   {
     $this->ccNumber = $ccNumber;
