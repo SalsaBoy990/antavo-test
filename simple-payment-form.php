@@ -568,7 +568,7 @@ if ($userPayment->validateUserInput()) {
             <input style="width: 100px; margin-right: 10px;" type="text" name="expiration-month" placeholder="MM" inputmode="numeric" aria-label="credit card expiration month">
           </div>
           <div>
-            <label for="expiration-year">year</label>
+            <label for="expiration-year">Expiration year</label>
             <span class="errorMsg">
               <?php echo $userPayment->yearErr; ?>
             </span>
